@@ -4,6 +4,9 @@
 <head>
 <title>This is a Title</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
 div.header{
 	float: left;
@@ -11,11 +14,12 @@ div.header{
 	margin-top: 6%;
 	color: white;
 	font-family: roboto;
+	overflow: auto;
 }
 div.select{
 	position: fixed;
 	top: 0px;
-	background-color: grey;
+	background-image: url("headerpic.jpg");
 	overflow: hidden;
 	width: 100%;
 	font-family: roboto;
@@ -24,7 +28,7 @@ div.select{
 /* Style the topnav links */
 div.select a {
   float: right;
-  display: block;
+  display: inline-block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -35,20 +39,30 @@ div.select a {
 
 /* Change color on hover */
 div.select a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgba(34, 165, 46, 0.5);
+}
+div.mainButt{
+	float: left;
+	margin-top: 8%;
 }
 div.face{
-	position:absolute;
-	top: 4000px;
-	left: 560px;
+	float: right;
+	margin-right: 40vh;
+	margin-top: 15vh;
+}
+div.coolCarousel{
+	clear: left;
+	margin-left:auto;
+	margin-right:auto;
+	height: 10vh;
+	width: 40vh;
 }
 </style>
 </head>
 
 <body style="background-color: rgba(0, 0, 0, 0.9); max-width: 100%; margin: 0">
 
-<div class="header">
+<div class="header" style="margin-bottom: 15vh;">
 <h1 style="font-size: 330%;margin-bottom: 0;">
 Title Title Title
 </h1>
@@ -56,6 +70,52 @@ Title Title Title
 <p style="font-size: 110%;">
 asdas saf hbasj dasgdu sagd sadvsasads adusa udg svuas gdvasug davsydcasydfcasdsagda
 </p>
+<div class="mainButt">
+<button type="button" class="btn btn-default" style="width: 25vh; height: 8vh;">Success</button>
+</div>
+<div class="mainButt" style="margin-left: 10vh;">
+<button type="button" class="btn btn-success" style="width: 45vh; height: 8vh;">Success</button>
+</div>
+</div>
+
+<div class="face">
+<img src="ricklePick.png" class="img-circle" alt="Pickle Rick" style="width:40vh;height:40vh;border:0">
+</div>
+
+<div class="coolCarousel"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="headerpic.jpg" alt="pick" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="headerpic.jpg" alt="stick" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="headerpic.jpg" alt="rick" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 
 <div class="select">
@@ -63,10 +123,6 @@ asdas saf hbasj dasgdu sagd sadvsasads adusa udg svuas gdvasug davsydcasydfcasds
 <a href=""> Stuff </a>
 <a href=""> MoreStuff </a>
 <a href=""> EvenMoreStuff </a>
-</div>
-
-<div class="face">
-<img src="ricklePick.png" alt="Pickle Rick" style="width:70px;height:72px;border:0">
 </div>
 
 </body>
