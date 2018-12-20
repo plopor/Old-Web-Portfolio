@@ -6,78 +6,63 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 div.header{
-	position: relative;
-	left: 120px;
-	top: 50px;
+	float: left;
+	margin-left: 8%;
+	margin-top: 6%;
 	color: white;
 	font-family: roboto;
 }
-div.desc{
-	position: absolute;
-	left: 0px;
-	top: 40px;
-}
 div.select{
 	position: fixed;
-	right: 90px;
-}
-div.banner{
-	position: fixed;
-	background: grey;
 	top: 0px;
-	left: 0px;
-	width: 4000px;
-	height: 68px;
+	background-color: grey;
+	overflow: hidden;
+	width: 100%;
+	font-family: roboto;
+	font-size: 120%;
+}
+/* Style the topnav links */
+div.select a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+div.select a:hover {
+  background-color: #ddd;
+  color: black;
 }
 div.face{
 	position:absolute;
 	top: 4000px;
 	left: 560px;
 }
-ul.nav{
-	list-style: none;
-	margin-top: 20px;
-}
-ul.nav li{
-	display: inline-block;
-}
-ul.nav li a{
-	color: white;
-	background-color: transparent;
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: roboto;
-	font-size: 170%;
-}
-ul.nav li a:hover{
-	border: 1px solid white;
-}
 </style>
 </head>
 
-<body style="background-color: rgba(0, 0, 0, 0.9);max-width: 100%;
-    overflow-x: hidden;">
+<body style="background-color: rgba(0, 0, 0, 0.9); max-width: 100%; margin: 0">
 
 <div class="header">
-<div class="desc">
-<p style="font-size: 120%;color: grey;">asdasdasdasd</p>
-</div>
-<h1 style="font-size: 330%;">
-TitleTitleTitle
+<h1 style="font-size: 330%;margin-bottom: 0;">
+Title Title Title
 </h1>
+<p style="font-size: 120%;color: grey;margin: 0;">asdasdasdasd</p>
 <p style="font-size: 110%;">
-asdassafhbasjdasgdusagdsadvsa<br>
-sadsadusaudgsvuasgdvasugdavsydcasydfcasdsagda<br>
+asdas saf hbasj dasgdu sagd sadvsasads adusa udg svuas gdvasug davsydcasydfcasdsagda
 </p>
 </div>
 
-<div class="banner">
 <div class="select">
-<ul class="nav">
-<li><a href=""> Stuff </a><li>
-<li><a href=""> MoreStuff </a><li>
-</ul>
-</div>
+<a href="" style="float: left;"> HomeStuff </a>
+<a href=""> Stuff </a>
+<a href=""> MoreStuff </a>
+<a href=""> EvenMoreStuff </a>
 </div>
 
 <div class="face">
