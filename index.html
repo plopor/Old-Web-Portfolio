@@ -11,8 +11,9 @@
 <style>
 div.header{
 	float: left;
-	margin-left: 20vh;
-	margin-top: 13vh;
+	/*margin-left: 20vh;
+	margin-right: 20vh;
+	margin-top: 13vh;*/
 	color: white;
 	font-family: roboto;
 	overflow: auto;
@@ -48,8 +49,8 @@ div.mainButt{
 }
 div.face{
 	float: right;
-	margin-right: 23vh;
-	margin-top: 20vh;
+	margin-right: 5vw;
+	margin-top: 5vh;
 }
 div.portfolio{
 	clear: left;
@@ -62,7 +63,7 @@ div.coolCarousel{
 	clear: left;
 	margin-left:auto;
 	margin-right:auto;
-	width: 81.5vw;
+	width: 82vw;
 }
 div.toTop{
 	float: right;
@@ -76,6 +77,16 @@ div.toTop{
 
 <body style="background-color: rgba(0, 0, 0, 0.95); max-width: 100%; margin: 0">
 
+<div class="container" style="margin-left: 20vh; margin-right: 20vh; margin-top: 13vh;">
+<div class="row">
+
+<div class="col-sm">
+<div class="face">
+<img src="ricklePick.png" class="img-circle" alt="Pickle Rick" style="width:40vh;height:40vh;border:0">
+</div>
+</div>
+
+<div class="col-sm">
 <div class="header" style="margin-bottom: 15vh;">
 <h1 style="font-size: 10vh;margin-bottom: 0;">
 Bowen Luo
@@ -84,16 +95,16 @@ Bowen Luo
 <p style="font-size: 3vh; max-width: 53vw;">
 Hello there! Welcome to my work in progress web portfolio. Here, you will be able to find a few of my projects, my resumé, and whatever else I am currently testing out. Please have a look around!
 </p>
-<div class="mainButt">
+<div class="mainButt" style="margin-right: 10vh;">
 <a href="#" role="button" title="bowen.luo@gmail.com" class="btn btn-default" style="width: 25vh; height: 8vh;font-size: 3vh; display: table-cell; vertical-align: middle;">Contact Info</a>
 </div>
-<div class="mainButt" style="margin-left: 10vh;">
+<div class="mainButt">
 <a href="https://github.com/plopor" target="_blank" role="button" class="btn btn-success" style="width: 45vh; height: 8vh;font-size: 3vh; display: table-cell; vertical-align: middle;">My GitHub</a>
 </div>
 </div>
+</div>
 
-<div class="face">
-<img src="ricklePick.png" class="img-circle" alt="Pickle Rick" style="width:40vh;height:40vh;border:0">
+</div>
 </div>
 
 <div class="portfolio">
@@ -115,30 +126,30 @@ Hello there! Welcome to my work in progress web portfolio. Here, you will be abl
       <div class="item active">
         <img src="snake2p.png" alt="pick" style="width:100%;">
 		<div class="carousel-caption">
-        <h3 style="float: left; font-size: 10vh;">Snake 2P
-		<a href="https://github.com/plopor/Snake-game-2players" target="_blank" role="button" class="btn btn-default" style="float: right; margin-top: 2%; margin-left: 4vh; width: 25vh; height: 8vh;font-size: 3vh; display: table-cell; vertical-align: middle;">GitHub</a>
+        <h3 style="float: left; font-size: 10vmin;">Snake 2P
+		<a href="https://github.com/plopor/Snake-game-2players" target="_blank" role="button" class="btn btn-default" style="float: right; margin-top: 1vh; margin-left: 4vh; width: 25vh; height: 8vh;font-size: 3vh; display: table-cell; vertical-align: middle;">GitHub</a>
 		</h3>
-        <p style="clear: left; float: left; font-size: 3vh;">Made in Java, an interactive twist on the classic game of Snake for people who have friends. With WASD and arrow keys to control one blue and one green snake, two players will play against each other to collect the most food and grow into the largest snake. But be careful, running into the opponent snake's tail will spell certain doom.</p>
+        <p style="clear: left; float: left; font-size: 3vmin; max-height: 10vw; overflow: auto;">Made in Java, an interactive twist on the classic game of Snake for people who have friends. With WASD and arrow keys to control one blue and one green snake, two players will play against each other to collect the most food and grow into the largest snake. But be careful, running into the opponent snake's tail will spell certain doom.</p>
 		</div>
       </div>
 
       <div class="item">
         <img src="headerpic.jpg" alt="stick" style="width:100%;">
 		<div class="carousel-caption">
-        <h3 style="float: left; font-size: 10vh;">Something
-		<a href="#" target="_blank" role="button" class="btn btn-default" style="float: right; margin-top: 2%; margin-left: 4vh; width: 25vh; height: 8vh;font-size: 3vh; display: table-cell; vertical-align: middle;">GitHub</a>
+        <h3 style="float: left; font-size: 10vmin;">Something
+		<a href="#" target="_blank" role="button" class="btn btn-default" style="float: right; margin-top: 1vh; margin-left: 4vh; width: 25vh; height: 8vh;font-size: 3vh; display: table-cell; vertical-align: middle;">GitHub</a>
 		</h3>
-        <p style="font-size: 3vh; clear: left; float: left;">asdas dasdas das dasda sd asda sda sdaaaa sda sdasda sdsada sdsad sadas das das das dasd asd a sdas dasda sdasda sdas d as  da sdasd asdas dsad  sada sd a sd</p>
+        <p style="font-size: 3vmin; clear: left; float: left; max-height: 10vw; overflow: auto;">asdas dasdas das dasda sd asda sda sdaaaa sda sdasda sdsada sdsad sadas das das das dasd asd a sdas dasda sdasda sdas d as  da sdasd asdas dsad  sada sd a sd</p>
 		</div>
       </div>
     
       <div class="item">
         <img src="headerpic.jpg" alt="rick" style="width:100%;">
 		<div class="carousel-caption">
-        <h3 style="float: left; font-size: 10vh;">Something
-		<a href="#" target="_blank" role="button" class="btn btn-default" style="float: right; margin-top: 2%; margin-left: 4vh; width: 25vh; height: 8vh;font-size: 3vh; display: table-cell; vertical-align: middle;">GitHub</a>
+        <h3 style="float: left; font-size: 10vmin;">Something
+		<a href="#" target="_blank" role="button" class="btn btn-default" style="float: right; margin-top: 1vh; margin-left: 4vh; width: 25vh; height: 8vh;font-size: 3vh; display: table-cell; vertical-align: middle;">GitHub</a>
 		</h3>
-        <p style="clear: left; float: left; font-size: 3vh;">asdas dasdas das dasda sd asda sda sdaaaa sda sdasda sdsada sdsad sadas das das das dasd asd a sdas dasda sdasda sdas d as  da sdasd asdas dsad  sada sd a sd</p>
+        <p style="clear: left; float: left; font-size: 3vmin; max-height: 10vw; overflow: auto;">asdas dasdas das dasda sd asda sda sdaaaa sda sdasda sdsada sdsad sadas das das das dasd asd a sdas dasda sdasda sdas d as  da sdasd asdas dsad  sada sd a sd</p>
 		</div>
       </div>
     </div>
@@ -155,10 +166,16 @@ Hello there! Welcome to my work in progress web portfolio. Here, you will be abl
   </div>
 </div>
 
-<div class="portfolio" style="margin-top: 15vh;">
+<div class="container" style="max-width: 82vw;">
+<div class="row">
+
+<div class="portfolio" style="margin-top: 17vh;">
 <h1 id="res" style="font-size: 8vh; text-align: center;">Resumé</h1>
 <p style="color: grey; font-size: 3vh; text-align: center;">SOME SKILLS, EXPERIENCES, HOBBIES, AND INTERESTS THAT I HAVE</p>
-<p style="font-size: 3vh; margin-left: 20vh; max-width: 81.5vw;"> asdasdsad asdashd ashjdvas djhsavd jsahvdasjvdasghdcasgdv asjdashd askhd asdhgask daskjdh askjdha skjdhakjsh dkjashdkas dkashdkasj hdkjas dksah dkash dkash dkashdksa hdksjad hskajdhaskjdhas daskjhd kashdkajshkhdkahdka hdkahd ha dk ahdka dkha dkahd ka</p>
+<p style="font-size: 3vh; text-align: left;"> asdasdsad asdashd ashjdvas djhsavd jsahvdasjvdasghdcasgdv asjdashd askhd asdhgask daskjdh askjdha skjdhakjsh dkjashdkas dkashdkasj hdkjas dksah dkash dkash dkashdksa hdksjad hskajdhaskjdhas daskjhd kashdkajshkhdkahdka hdkahd ha dk ahdka dkha dkahd ka</p>
+</div>
+
+</div>
 </div>
 
 <div class="toTop">
@@ -167,7 +184,6 @@ Hello there! Welcome to my work in progress web portfolio. Here, you will be abl
 
 <div class="select">
 <a href="" style="float: left;"> Home </a>
-<a href=""> Stuff </a>
 <a href="#res"> Resumé </a>
 <a href="#port"> Portfolio </a>
 </div>
